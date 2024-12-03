@@ -8,14 +8,14 @@ workflows:
     environment:
       ios_signing:
         provisioning_profiles:
-         - profile: profileTiger
+         - profile: tiheritoProfile
         certificates:
          - certificate: certificate tiger
       vars:
-        BUNDLE_ID: "tigero.jopke.foot"
+        BUNDLE_ID: "bundledito.tigeroto.novito"
         XCODE_PROJECT: "TigerFoot.xcodeproj"
         XCODE_SCHEME: "TigerFoot"
-        APP_STORE_APPLE_ID: 6738629876
+        APP_STORE_APPLE_ID: 6738935654
       xcode: 16.0
 
     scripts:
